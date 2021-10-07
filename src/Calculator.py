@@ -16,6 +16,10 @@ def division(a, b):
 def square(a):
    return int(a)**2
 
+def square_root(a):
+    a = float(a) ** .5
+    return a
+
 class Calculator:
     result = 0
 
@@ -40,4 +44,8 @@ class Calculator:
 
     def sq(self, a):
         self.result = square(a)
+        return self.
+
+    def sqrt(self, a):
+        self.result = square_root(a)
         return self.result
